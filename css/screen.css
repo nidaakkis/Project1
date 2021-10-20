@@ -4,8 +4,66 @@ html {
   padding: 1.182em;
   text-rendering: optimizeLegibility;
   font-family: 'Libre Baskervile', serif;
+  background-color: #d5f4e6;
 }
 
 #content {
   text-align: center;
 }
+form {
+  background-color: #89CFF0;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 2em;
+}
+
+header {
+  background-color: #A7C7E7;
+  text-align: center;
+  padding: 20px;
+  border-radius: 3em;
+  margin-bottom: 2%;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 2%;
+}
+
+header h2 {
+  font-size: 1.5em;
+  padding-top: 5px;
+}
+
+input {
+  padding: 8px 8px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+#input-email {
+  margin-left: 2em;
+}
+
+#phone {
+  margin-right: 1.2em;
+}
+
+#dob {
+  margin-right: .8em;
+}
+
+input[type="date"] {
+  width: 13.6em;
+}
+
+#input-age-verification {
+  margin: 15px;
+}
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+
+

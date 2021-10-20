@@ -5,44 +5,48 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="form"/>
   <link rel="stylesheet" media="screen" href="css/screen.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=divbre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/divbs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>
 </head>
 <body>
 <main id="content">
+  <header>
+    <h1>Crime Fact Of The Day</h1>
+	<h2>Want To Learn A Perfect Crime! Subscribe Here!</h2>
+  </header>
   <form method="post" action="#null" autocomplete="on">
-    <h1>Crime Of The Day</h1>
-	<h2>Subscribe to Learn the Crime of the Day!</h2>
-	<ol>
-	  <li id="firstName">
-	    <label for="fName">First Name:</label>
-		<input type="text" name="fName" id="fName"/>
-	  </li>
-	  <li id="lastName">
-	    <label for="lName">Last Name:</label>
-		<input type="text" name="lName" id="lName"/>
-	  </li>
-	  <li id="input-email">
-	    <label for="email">Email</label>
-		<input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="crime@gmail.com"/>
-	  </li>
-	  <li id="phone">
-	    <label for="phone">Phone Number</label>
-		<input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-	  </li>
-	  <li id="dob">
-	    <label for="dob">Date of Birth</label>
-		<input type="date" id="dob" name="dob"/>
-	  </li>
-	  <li id="input-age-verification">
-	    <input type="checkbox" id="age-verification" name="age-verification" value="18"/>
-	    <label for="age-verification">I am over 18 years old</label>
-	  </li>
-	  <li id="input-submit">
-	    <input type="submit" name="submit" id="submit" value="Subscribe"/>
-	  </li>
-	</ol>
+	<div id="firstName">
+	  <label for="fName">First Name:</label>
+	  <input type="text" name="fName" id="fName" placeholder="Love"/>
+	<div>
+	<div id="lastName">
+	  <label for="lName">Last Name:</label>
+	  <input type="text" name="lName" id="lName" placeholder="Crime"/>
+	</div>
+	<div id="input-email">
+	  <label for="email">Email:</label>
+	  <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="crime@gmail.com"/>
+	</div>
+	<div id="phone">
+	  <label for="phone">Phone Number:</label>
+	  <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+	</div>
+	<div id="dob">
+	  <label for="dob">Date of Birth:</label>
+	  <input type="date" id="dob" name="dob"/>
+	</div>
+	<div id="input-age-verification">
+	  <input type="checkbox" id="age-verification" name="age-verification" value="18"/>
+	  <label for="age-verification">I am over 18 years old</label>
+	</div>
+	<div id="input-crime">
+	  <input type="checkbox" id="crime-verification" name="crime-verification"/>
+	  <label for="crime-verification">I will not commit these crimes</label>
+	</div>
+	<div id="input-submit">
+	  <input type="submit" name="submit" id="submit" value="Subscribe"/>
+	</div>
   </form>
 </main>
 </body>
