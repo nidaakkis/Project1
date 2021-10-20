@@ -1,0 +1,11 @@
+html {
+  font-size: 1.375em;
+  line-height: 1.182em;
+  padding: 1.182em;
+  text-rendering: optimizeLegibility;
+  font-family: 'Libre Baskervile', serif;
+}
+
+#content {
+  text-align: center;
+}
