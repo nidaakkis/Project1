@@ -1,5 +1,5 @@
 function init() {
-  document.getElementById("submit").addEventListener("click", function(evnt) {
+  document.getElementById("subscribe").addEventListener("click", function(evnt) {
 	evnt.preventDefault();
 	alert("Thanks for Subscribing! Happy Learning!");
 	});
@@ -22,7 +22,7 @@ function chckbox() {
 	alert("Please check that you are 18 or older");
 	return false;
   }
-  if(!document.getElementById("crime-verification").checked) {
+  else if(!document.getElementById("crime-verification").checked) {
 	alert("Please check that you won't commit any of these crimes");
 	return false;
   }
@@ -31,6 +31,5 @@ function chckbox() {
   }
 }
 
-//window.addEventListener('load', init);
   
 	
