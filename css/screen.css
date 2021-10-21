@@ -11,14 +11,14 @@ html {
   text-align: center;
 }
 form {
-  background-color: #370707;
+  background-color: #5f0000;
   padding: 25px;
   box-sizing: border-box;
   border-radius: 2em;
 }
 
 header {
-  background-color: #5f0000;
+  background-color: #370707;
   text-align: center;
   padding: 20px;
   border-radius: 3em;
