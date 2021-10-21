@@ -40,6 +40,7 @@ input {
   padding: 8px 8px;
   margin: 5px;
   box-sizing: border-box;
+  width: 20em;
 }
 
 #input-email {
@@ -55,15 +56,25 @@ input {
 }
 
 input[type="date"] {
-  width: 13.6em;
+  width: 20em;
 }
 
 #input-age-verification {
   margin: 15px;
 }
+
 input[type="checkbox"] {
-  width: 25px;
-  height: 25px;
+  width: 19px;
+  height: 19px;
+}
+
+#input-submit {
+  padding-top: 1em;
+}
+
+input[type="submit"] {
+  background-color: #92a8d1;
+  color: white;
 }
 
 
