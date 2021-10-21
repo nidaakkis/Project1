@@ -78,11 +78,6 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 600px) {
-  input {
-	font-size: 4px;
-	padding: 4px;
-	width: 30em;
-  }
   input[type="checkbox"] {
 	width: 11px;
 	height: 11px;
@@ -104,11 +99,7 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 768px) {
-  input {
-	font-size: 5px;
-	padding: 5px;
-	width: 50em;
-  }
+
   input[type="checkbox"] {
 	width: 13px;
 	height: 13px;
