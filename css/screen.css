@@ -4,14 +4,14 @@ html {
   padding: 1.182em;
   text-rendering: optimizeLegibility;
   font-family: 'Libre Baskervile', serif;
-  background-color: #6b0d0d;
+  background-color: #370707;
 }
 
 #content {
   text-align: center;
 }
 form {
-  background-color: #5f0000;
+  background-color: #6b0d0d;
   padding: 25px;
   box-sizing: border-box;
   border-radius: 2em;
@@ -19,7 +19,7 @@ form {
 }
 
 header {
-  background-color: #370707;
+  background-color: #5f0000;
   text-align: center;
   padding: 20px;
   border-radius: 2em;
