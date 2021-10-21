@@ -22,7 +22,7 @@ header {
   background-color: #370707;
   text-align: center;
   padding: 20px;
-  border-radius: 3em;
+  border-radius: 2em;
   margin-bottom: 2%;
   color: white;
 }
@@ -72,11 +72,13 @@ input[type="checkbox"] {
 
 #input-submit {
   padding-top: 1em;
+  height: 35px;
 }
 
 input[type="submit"] {
   background-color: #000000;
   color: white;
+  height: 45px;
 }
 
 @media screen and (min-width: 600px) {
