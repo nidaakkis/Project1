@@ -31,5 +31,6 @@ function chckbox() {
   }
 }
 
+window.addEventListener('load', init);
   
 	
